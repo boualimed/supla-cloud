@@ -37,7 +37,8 @@ twig:
 ewz_recaptcha:
     public_key:   "%ewz_recaptcha_public_key%"
     private_key:  "%ewz_recaptcha_private_key%"
-    
+    enabled: false
+
 # Assetic Configuration
 assetic:
                 
