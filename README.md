@@ -1,5 +1,6 @@
 
---- Installation ---
+Installation
+============
 
     cd /var/www/
     sudo git clone https://github.com/IoTAqua/supla-cloud.git
@@ -27,8 +28,8 @@
     exit
     sudo chown -R root:www-data *
 
-
---- Setup Apache ---
+Setup Apache
+============
 
 Config must have:
 
