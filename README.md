@@ -17,9 +17,10 @@ Installation
     * FLUSH PRIVILEGES;
 
     cp /var/www/supla-cloud/app/config/parameters.yml.dist /var/www/supla-cloud/app/config/parameters.yml
-    vi /var/www/supla-cloud/app/config/parameters.yml.dist
+    vi /var/www/supla-cloud/app/config/parameters.yml
+    chmod 640 parameters.yml /var/www/supla-cloud/app/config/parameters.yml
     * set "database_password:" <mysql-supla-password>
-    * set "mailer_from:" to <admin@domain>
+    * set "mailer_from:" <admin@domain>
 
     curl -sS https://getcomposer.org/installer | php
     php composer.phar install
